@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2_id"
+        android:text="https://www.w3schools.com/"
+        android:textSize="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/img_id"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/img_id"
+       android:src="@drawable/images"
+       android:layout_centerInParent="true"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:id="@+id/editsearch_id"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click this below link"
+        android:drawableRight="@drawable/ic_baseline_arrow_downward_24"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/img_id"/>
+
+</RelativeLayout>
